@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<table width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+		<caption><h4>用户注册</h4></caption>
+		<tr >
+			<td>
+				性别
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<!-- radio : 单选按钮 name:控件的名字 -->
+				<!-- radio如果是一组，我们必须给他们命名相同的名字，这样就可以选一个了 -->
+
+				男<input type="radio" name="sex" checked="checked">
+				女<input type="radio" name="sex">
+				人妖<input type="radio" name="sex">
+			</td>
+		</tr>
+		<tr >
+			<td>
+				用户名
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="text" value="William">
+			</td>
+		</tr>
+		<tr >
+			<td>
+				密码
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 maxlength: 最大长度-->
+				<input type="password" maxlength="6">
+			</td>
+		</tr>
+		<tr >
+			<td>
+				喜欢的类型
+			</td>
+			<td>
+				性感 <input type="checkbox" name="love" >
+				腿长 <input type="checkbox" name="love">
+				有钱 <input type="checkbox" name="love" >
+				温柔 <input type="checkbox" name="love">
+			</td>
+		</tr>
+		<tr >
+			<td>
+				所在地区
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="text" value="北京">
+			</td>
+		</tr>
+
+		<tr >
+			<td>
+				学历
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="text" value="">
+			</td>
+		</tr>
+
+		<tr >
+			<td>
+				月薪
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="text" value="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				手机号
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="text" value="">
+			</td>
+		</tr>
+		<tr >
+			<td>
+				昵称
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="text" value="">
+			</td>
+		</tr>
+		
+		<tr >
+			<td>
+				上传头像
+			</td>
+			<td>
+				<!-- 文件形式上传-->
+				<input type="file" >
+			</td>
+		</tr>
+		<tr >
+			<td>
+				
+			</td>
+			<td>
+				<!-- type : 是类型 text：文本 password：密码 value：默认文字 -->
+				<input type="button"  value="注册" >
+				<input type="submit"  value="提交" >
+				<input type="reset"  value="重置" ><br />
+				<!-- 图片形式的提交按钮 -->
+				<input type="image" src="img/submit.png" width="100">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
