@@ -34,13 +34,19 @@
 		<h2><a href="#表格">7.表格</a></h2>
 	</li>
 	<li>
-		<h2><a href="#表格">7.表格</a><a href="表格.html" target="_blink">(练习)</a></h2>
+		<h2><a href="#合并单元格">8.合并单元格</a><a href="表格.html" target="_blink">(练习)</a></h2>
 	</li>
 	<li>
-		<h2><a href="#合并单元格">8.合并单元格</a></h2>
+		<h2><a href="#表单">9.表单</a><a href="表单.html" target="_bli">(练习)</a></h2>
 	</li>
 	<li>
-		<h2><a href="#表单">9.表单</a><a href="表单.html" target="_blink">(练习)</a></h2>
+		<h2><a href="#label">10.label</a></h2>
+	</li>
+	<li>
+		<h2><a href="#select">11.label</a></h2>
+	</li>
+	<li>
+		<h2><a href="#textarea">12.文本域</a></h2>
 	</li>
 </ul>
 	
@@ -153,7 +159,7 @@
 			<th>姓名</th>
 			<th>性别</th>
 			<th>电话</th>
-		</tr >
+			</tr >
 		</thead>
 		<tbody>
 			<tr align="center">
@@ -193,6 +199,69 @@
 
 	<h3 id="表单">9.表单</h3>
 
+	<!-- label -->
+	<h3 id="label">10.Label</h3>
+	<label>
+		用户名:<input type="text" name="">
+	</label>
+	<label>
+		密码:<input type="text" name="">
+	</label><br />
+	<label for="number">
+		地区:<input type="text" name="">
+		电话:<input type="text" id = "number">
+	</label>
+	<br />
+
+
+	<h3 id="select">11.下拉框</h3>
+	<!-- 下拉框 -->
+	<!-- 不带默认的 -->
+	<select>
+		<option>
+			1990
+		</option>
+		<option>
+			1991
+		</option>
+		<option>
+			1992
+		</option>
+		<option>
+			1993
+		</option>
+		<option>
+			1994
+		</option>
+	</select>
+<!-- 默认的 -->
+	<select>
+		<option>
+			20
+		</option>
+		<option>
+			21
+		</option>
+		<option>
+			22
+		</option>
+		<option>
+			23
+		</option>
+		<option>
+			24
+		</option>
+		<option selected="selected">
+			25
+		</option >
+	</select>
+
+	<h3 id="textarea">12.文本域</h3>
+	<!-- 文本框 -->
+				<!-- cols 每行中 的 字符数 rows:显示的行数 -->
+	<textarea cols="50" rows="13">不支持富文本</textarea>
+
+	<h3 id="">13.表单域</h3>
 
 </body>
 </html>
