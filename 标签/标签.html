@@ -48,6 +48,9 @@
 	<li>
 		<h2><a href="#textarea">12.文本域</a></h2>
 	</li>
+	<li>
+		<h2><a href="#form">13.表单域</a></h2>
+	</li>
 </ul>
 	
 
@@ -261,7 +264,16 @@
 				<!-- cols 每行中 的 字符数 rows:显示的行数 -->
 	<textarea cols="50" rows="13">不支持富文本</textarea>
 
-	<h3 id="">13.表单域</h3>
+	<h3 id="form">13.表单域</h3>
+	<!-- action:将指定表单内容，提交到某页面中 -->
+	<!-- method:提交方法，会以指定形式提交，比如get会拼在url后面：file:///Users/sunchengxiu/HTML/%E6%A0%87%E7%AD%BE/demo.php?username=123&password=456 -->
+	<form action="demo.php" method="post">
+		用户名:<input type="text" name="username"><br/ ><br />
+		密 码:<input type="password" name="password"><br/ ><br />
+		<input type="submit" value="提交所填" name="">
+		<input type="reset" value="重置所填" name="">
+	</form>
+
 
 </body>
 </html>
