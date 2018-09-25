@@ -5,50 +5,70 @@
 	<title>RongCloud</title>
 	<style>
 	/*界面背景颜色*/
-		body{
+		/*body{
 			background-color: blue
+		}*/
+		/*怎么 autolayout？ 这里暂且写死吧*/
+		.topStyle{
+			top: 0px;
+			height: 500px;
+			background-color: blue;
 		}
 		.layout{
 			font-size: 3;
 			color: white;
 			position: absolute;
-  			top: 0;
+  			top: 10;
   			left: 300px;
 		}
 		.layout1{
 			font-size: 3;
 			color: white;
 			position: absolute;
-  			top: 0;
+  			top: 10;
   			left: 350px;
 		}
 		.layout2{
 			font-size: 3;
 			color: white;
 			position: absolute;
-  			top: 0;
+  			top: 10;
   			left: 400px;
 		}
 		.layout3{
 			font-size: 3;
 			color: white;
 			position: absolute;
-  			top: 0;
+  			top: 10;
   			left: 450px;
 		}
 		.layout4{
 			font-size: 3;
 			color: white;
 			position: absolute;
-  			top: 0;
+  			top: 10;
   			left: 540px;
 		}
 		.layout5{
 			font-size: 3;
 			color: white;
 			position: absolute;
-  			top: 0;
+  			top: 10;
   			left: 590px;
+		}
+		.layout6{
+			/*font-size: 3;*/
+			color: white;
+			position: absolute;
+  			top: 110px;
+  			left: 300px;
+		}
+		.layout7{
+			color: white;
+			position: absolute;
+  			top: 180px;
+  			left: 300px;
+  			right: 300px;
 		}
 		.login{
 			width:40px;
@@ -59,7 +79,7 @@
 			/*background-color: blue;*/
 			font-size: 3;
 			position: absolute;
-  			top: 1px;
+  			top: 20px;
   			left:  1000px;
 		}
 		.register{
@@ -71,13 +91,17 @@
 			/*background-color: blue;*/
 			font-size: 3;
 			position: absolute;
-  			top: 1px;
+  			top: 20px;
   			left:  1050px;
 		}
+		/*h3{
+			left: 300px;
+			color: white
+		}*/
 	</style>
 </head>
 <body>
-	<div>
+	<div class="topStyle">
 		<h3>
 			<a href="https://www.rongcloud.cn/product" class="layout" >产品</a>
 			<a href="https://www.rongcloud.cn/pricing#pay" class="layout1">价格</a>
@@ -87,6 +111,12 @@
 			<a href="https://support.rongcloud.cn" class="layout5"></a>
 			<button class="login" onclick="login()">登录</button>
 			<button class="register" onclick="register()">注册</button>
+			<h2 class="layout6">融云企业解决方案</h2>
+
+			<div class="layout7">
+				企业内外互通，人人互通，人与平台互通的即时通讯平台，承诺消息可靠性100%，基于自有知识产权，采用四层安防体系，打造了遗留的安全保障体系。
+			</div>
+		
 		</h3> 
 	</div>
 	<script>
